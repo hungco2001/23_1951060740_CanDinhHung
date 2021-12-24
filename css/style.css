@@ -1,0 +1,178 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  border: 1px solid #000;
+  height: auto;
+  width: 90%;
+  margin: 0 auto;
+ 
+}
+.header 
+{
+    border: 1px solid #000;
+    height: 150xp;
+    width: 100%;
+    background: #4e4545;
+}
+.banner-caption-name{
+  text-align: center;
+  color: white;
+}
+
+.banner-caption-desc{
+  text-align: center;
+  color: white;
+}
+.menu 
+{
+    border: 1px solid #000;
+    height: 50px;
+    width: 100%;
+    margin: 0 auto;
+    background: #f5ebeb;
+ 
+}
+ul.list_menu {
+  padding: 0;
+  margin: 0 auto;
+  width: 60%;
+  list-style: none;
+  line-height: 30px;
+  
+}
+ul.list_menu li
+{
+  float: left;
+  /* border: 1px solid black; */
+  margin: 7px;
+  padding: 5px;
+}
+ul.list_menu li a{
+  text-decoration: none;
+  text-align: center;
+  color:black ;
+}
+ul.list_menu li:hover
+{
+  background: rgb(235, 220, 220);
+}
+
+#main 
+{
+    border: 1px solid #000;
+    height: auto;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+.sidebar
+{
+  border: 1px solid #000;
+  height: 390px;
+  width: 15%;
+  margin-top: 5px;
+  margin-left: 5px;
+  /* background: rgb(46, 32, 59); */
+  float: left;
+
+}
+ul.list_sidebar {
+  padding: 0;
+  margin: 0 ;
+  width: 100%;
+  list-style: none;
+  line-height: 30px;
+  
+}
+ul.list_sidebar li
+{
+  margin: 7px;
+  padding: 5px;
+}
+ul.list_sidebar li a{
+  text-decoration: none;
+  text-align: left;
+  color:black ;
+  display: block;
+}
+ul.list_sidebar li:hover
+{
+  background: rgb(248, 246, 246);
+}
+.maincontent
+{
+  border: 1px solid #000;
+  height: auto;
+  width: 80%;
+  margin-top: 5px;
+  margin-left: 5px;
+  /* background: rgb(46, 32, 59); */
+  float:right ;
+}
+ul.product_list
+{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  width: 100%;
+
+}
+ul.product_list li
+{
+  border: 1px solid black;
+  width: 19%;
+  height: auto;
+  margin: 5px;
+  float: left;
+}
+ul.product_list li a
+{
+  text-decoration: none;
+
+}
+ul.product_list li img
+{
+width: 100%;
+}
+p.title_product
+{
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+p.price_product
+{
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+p.ggmap
+{
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold; 
+}
+.footer
+{
+    border: 1px solid #000;
+    height: 150px;
+    width: 100%;
+    margin: 0 auto;
+    background: #b4a5a6;
+}
+.clear
+{
+  clear: both;
+}
+
+
+.footer-country-list {
+    clear: both;
+    text-align: center;
+    padding: 15px 0;
+    border-top: #eee 1px solid;
+    margin-top: 53px;
+    color: black;
+}
