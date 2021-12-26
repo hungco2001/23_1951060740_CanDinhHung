@@ -20,6 +20,9 @@
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="#"> Giảm giá</a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="login.php"> Đăng nhập  </a>
+                            </li>
 
                         </ul>
                     </div>

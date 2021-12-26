@@ -8,14 +8,14 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/login.css">
 
 </head>
 
 <body>
     <header>
         <div class="d-grid gap-2 d-md-block">
-            <div class="row"><button type="button" class="btn btn-primary "><img src="img/foody-corp.png" alt=""></button>
+            <div class="row"><button type="button" class="btn btn-primary "><a href="index.php"><img src="img/foody-corp.png" alt=""></a></button>
             
 
             </div>

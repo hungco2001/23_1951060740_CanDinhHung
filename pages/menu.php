@@ -1,7 +1,7 @@
 <div class="menu">
             <ul class="list_menu">
              <li>
-                 <img width="60px" height="30px" src="img/giaotannoi.png" alt="">
+                 <img width="60px" height="30px" src="img/shope-food.png" alt="">
              </li>
              <li><a href="index.php">Deal hôm nay </a></li>
              <li><a href="index.php?quanly=tatca&id=1">Tất cả</a></li>
