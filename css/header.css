@@ -1,0 +1,36 @@
+*{
+    font-family: arial;
+}
+
+.header ul li img{
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-radius: 7px;
+}
+
+.header .nav-item .item{
+    font-size: 12px;
+    line-height: 1.4em;
+    color: #ddd;
+}
+
+.header .nav-item:hover .item{
+    color: white;
+}
+
+.logo{
+    height: 29.88px;
+}
+
+.logo img{
+    width: auto;
+    height:100%;
+}
+
+.search input{
+    width: 400px;
+    margin-top: 10px;
+}
+
