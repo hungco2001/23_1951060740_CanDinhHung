@@ -21,45 +21,28 @@
             </div>
     </header>
     <main>
-        <div class="login">
-            <h1 class="text-center">Login</h1>
-            <hr>
-            <?php
-            if (isset($_SESSION['login'])) {
-                echo $_SESSION['login'];
-                unset($_SESSION['login']);
-            }
+        <div class="container">
+        <form class="form-signin" action="process-login.php" method="post">
+            
+            <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+            <label for="inputEmail" class="sr-only">Email address</label>
+            <input type="email" id="inputEmail" name="txtEmail" class="form-control" placeholder="Email address" required autofocus>
+            <label for="inputPassword" class="sr-only">Password</label>
+            <input type="password" id="inputPassword" name="txtPass" class="form-control" placeholder="Password" required>
+            <div class="checkbox mb-3">
+                <label>
+                    <input type="checkbox" value="remember-me"> Remember me
+                </label>
+                <?php
+                    if(isset($_GET['error'])){
+                        echo "<h5 style='color:red'> {$_GET['error']} </h5>";
+                    }
 
-            if (isset($_SESSION['no-login-message'])) {
-                echo $_SESSION['no-login-message'];
-                unset($_SESSION['no-login-message']);
-            }
-            ?>
-           
-     
-            <div class="d-grid gap-2 d-md-block">
-                <div class="row"><button type="button" class="btn btn-success"><i class="bi bi-phone"></i> Đăng nhập bằng số đ thoại </button>
-                </div>
-            <hr>
+                ?>
             </div>
-            <div class="d-grid gap-2 d-md-block">
-                <div class="row"><button type="button" class="btn btn-primary"><i class="bi bi-facebook"></i> Đăng nhập bằng facebook</button>
-                </div>
-
-            </div>
-
-            <form action="" method="POST" class="text-center">
-                Username: <br>
-                <input type="text" name="username" placeholder="Enter Username"><br><br>
-
-                Password: <br>
-                <input type="password" name="password" placeholder="Enter Password"><br><br>
-
-                <input type="submit" name="submit" value="Login" class="btn-primary">
-                <br><br>
-            </form>
-
-            <p class="text-center">Created By - <a href="www.vijaythapa.com">CSE485</a></p>
-        </div>
+            <button class="btn btn-lg btn-primary btn-block" type="submit" name="btnSignIn" >Sign in</button>
+            <p class="mt-5 mb-3 text-muted">&copy; 2017-2018</p>
+        </form>
+        </div>    
     </main>
 </body>
