@@ -25,10 +25,10 @@
         <form class="form-signin" action="process-login.php" method="post">
             
             <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
-            <label for="inputEmail" class="sr-only">Email address</label>
-            <input type="email" id="inputEmail" name="txtEmail" class="form-control" placeholder="Email address" required autofocus>
-            <label for="inputPassword" class="sr-only">Password</label>
-            <input type="password" id="inputPassword" name="txtPass" class="form-control" placeholder="Password" required>
+            <label for="inputEmail" class="sr-only">Tên đăng nhập</label>
+            <input type="email" id="inputEmail" name="txtEmail" class="form-control" placeholder="Tên đăng nhập" required autofocus>
+            <label for="inputPassword" class="sr-only">Mật khẩu</label>
+            <input type="password" id="inputPassword" name="txtPass" class="form-control" placeholder="Mật khẩu" required>
             <div class="checkbox mb-3">
                 <label>
                     <input type="checkbox" value="remember-me"> Remember me
