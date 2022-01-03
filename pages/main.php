@@ -40,7 +40,7 @@
                 
 
                 else
-                { include("main/index.php");}
+                { include("main/danhmuc.php");}
                 ?>
                
                 </div>

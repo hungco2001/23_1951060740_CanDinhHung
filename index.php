@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -15,27 +14,28 @@
 <body>
     <div class="wrapper-fluid">
         <?php
-            include("pages/header.php")
+        include("quanly/config/config.php");
+        include("pages/header.php");
         ?>
         <?php
-        include("pages/slider.php")
+        include("pages/slider.php");
         ?>
         <?php
-        include("pages/menu.php")
+        include("pages/menu.php");
         ?>
         <?php
-        include("pages/main.php")
+        include("pages/main.php");
         ?>
         <?php
-        include("pages/footer.php")
+        include("pages/footer.php");
         ?>
 
 
 
 
 
-        
-        
+
+
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>

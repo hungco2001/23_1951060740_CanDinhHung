@@ -25,7 +25,7 @@
         <tr>
             <td><?php echo $i ?></td>
             <td><?php echo $row['tensanpham'] ?></td>
-           <td><img src="modules/quanlysp/uploads/<?php echo $row['hinhanh'] ?>"width="150px"></td>
+           <td><img src="modules/quanlysp/uploads/<?php echo $row['hinhanh'] ?>"width="150px" height="100px"></td>
             <td><?php echo $row['giasp'] ?></td>
             <td><?php echo $row['soluong'] ?></td>
             <td><?php echo $row['tendanhmuc'] ?></td>
