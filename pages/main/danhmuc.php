@@ -1,4 +1,4 @@
-<?php
+        <?php
 $sql_pro = "SELECT * FROM tbl_sanpham WHERE tbl_sanpham.id_danhmuc= '$_GET[id]' ORDER BY id_sanpham DESC"; //sắp xếp sản phẩm
 //   so sánh các id tương ứng giữa các bảng 
 $query_pro = mysqli_query($mysqli, $sql_pro);
@@ -15,7 +15,7 @@ $row_title = mysqli_fetch_array($query_cate);
             while($row_pro = mysqli_fetch_array($query_pro)){
             ?>
             <li>
-               <a href="">
+               <a href="index.php?quanly=sanpham&id=<?php echo $row_pro['id_sanpham']?>">
                   <img src="quanly/modules/quanlysp/uploads/<?php echo $row_pro['hinhanh'] ?>" alt="">
                   <p class="title_product">tên sản phẩm : <?php echo $row_pro['tensanpham'] ?></p>
                   <p class="price_product"> giá sản phẩm : <?php echo number_format($row_pro['giasp']).'vnd' ?></p>
