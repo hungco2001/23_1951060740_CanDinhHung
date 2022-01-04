@@ -17,6 +17,11 @@
                 {
                     include("main/danhmuc.php");
                 }
+                elseif($tam=='sanpham')
+                {
+                    include("main/sanpham.php");
+                }
+
 
                 else
                 { include("main/index.php");}

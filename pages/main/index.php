@@ -1,5 +1,5 @@
 <?php
-$sql_pro = "SELECT * FROM tbl_sanpham ,tbl_danhmuc WHERE tbl_sanpham.id_danhmuc=tbl_danhmuc.id_danhmuc ORDER BY tbl_sanpham.id_sanpham DESC"; //sắp xếp sản phẩm
+$sql_pro = "SELECT * FROM tbl_sanpham ,tbl_danhmuc WHERE tbl_sanpham.id_danhmuc=tbl_danhmuc.id_danhmuc ORDER BY tbl_sanpham.id_sanpham DESC limit 8"; //sắp xếp sản phẩm
 $query_pro = mysqli_query($mysqli, $sql_pro);
 
 

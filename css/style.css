@@ -12,7 +12,32 @@ body {
   margin: 0 auto;
  
 }
-
+.wapper_chitiet
+{
+  
+  height: auto;
+  width: 90%;
+  margin: 0 auto;
+  
+}
+.hinhanh_sanpham
+{
+  float: left;
+  width: 50%;
+}
+.chitiet_sanpham
+{
+  float: left;
+  width: 50%;
+}
+.themvaogiohang
+{
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  /* di chuột bào nut đổi hình chuột */
+}
+/* ----------- */
 .header ul li img{
   display: block;
   position: absolute;
@@ -200,6 +225,7 @@ p.ggmap
 {
   clear: both;
 }
+
 
 
 .footer-country-list {

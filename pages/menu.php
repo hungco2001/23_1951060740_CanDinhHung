@@ -8,6 +8,7 @@
              <li>
                  <img width="60px" height="30px" src="img/shope-food.png" alt="">
              </li>
+             <li><a href="index.php">Trang chủ</a></li>
              <?php
              while($row_danhmuc = mysqli_fetch_array($query_danhmuc)){
              ?>
