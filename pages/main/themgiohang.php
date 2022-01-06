@@ -30,6 +30,7 @@
                }  // nếu sesion tồn tại thì chạy hết phần true còn k chạy tiếp false
                if($found==false){
                    $_SESSION['cart']=array_merge($product,$new_product);
+                   //liên kết dữ liệu nếu dữ liệu trùng thì số lượng +1
                 //    dữ liệu k tìm thấy or k chùng thì liên kết 2 mảng trên vs nhau vì ms đầu nó đã tạo cho ta cái mảng cái sản phẩm đó r 
                }
                else{
