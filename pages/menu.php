@@ -23,6 +23,8 @@
              <li><a href="index.php?quanly=dochay">Đồ chay </a></li>
              <li><a href="index.php?quanly=banhkem">Bánh kem  </a></li>
              <li><a href="index.php?quanly=giohang">Giỏ hàng</a></li> -->
+             <li><a href="index.php?quanly=giohang">Giỏ hàng</a></li>
+            
 
             </ul>
 
