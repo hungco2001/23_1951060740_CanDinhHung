@@ -21,10 +21,10 @@
 
             </ul>
             <p>
-                <form action="index.php?quanly=timkiem" methor="POST">
+                <form action="index.php?quanly=timkiem" method="POST">
                 
                     <input type ="text" placeholder="Tìm kiếm sản phẩm"name="tukhoa">
-                    <input type="submit" name ="timkiem" value="tìm kiếm" >
+                    <input type="submit" name ="timkiem" value="Tìm kiếm" >
                 
                 </form>
             </p>
