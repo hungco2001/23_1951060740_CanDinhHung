@@ -15,8 +15,8 @@ $query_pro = mysqli_query($mysqli, $sql_pro);
             <li>
                <a href="index.php?quanly=sanpham&id=<?php echo $row['id_sanpham']?>">
                   <img src="quanly/modules/quanlysp/uploads/<?php echo $row['hinhanh'] ?>" alt="">
-                  <p class="title_product">tên sản phẩm : <?php echo $row['tensanpham'] ?></p>
-                  <p class="price_product"> giá sản phẩm : <?php echo number_format($row['giasp']).'vnd' ?></p>
+                  <p class="title_product"><?php echo $row['tensanpham'] ?></p>
+                  <p class="price_product"> <?php echo number_format($row['giasp']).'vnd' ?></p>
                   <p style="text-align : center;color : #ddd"> <?php echo $row['tendanhmuc']?></p>
                  
                </a>

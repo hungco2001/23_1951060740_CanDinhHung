@@ -17,9 +17,9 @@ $row_title = mysqli_fetch_array($query_cate);
             <li>
                <a href="index.php?quanly=sanpham&id=<?php echo $row_pro['id_sanpham']?>">
                   <img src="quanly/modules/quanlysp/uploads/<?php echo $row_pro['hinhanh'] ?>" alt="">
-                  <p class="title_product">tên sản phẩm : <?php echo $row_pro['tensanpham'] ?></p>
-                  <p class="price_product"> giá sản phẩm : <?php echo number_format($row_pro['giasp']).'vnd' ?></p>
-                  <p class="title_product">Nội dung : <?php echo $row_pro['tomtat'] ?></p>
+                  <p class="title_product"> <?php echo $row_pro['tensanpham'] ?></p>
+                  <p class="price_product">  <?php echo number_format($row_pro['giasp']).'vnd' ?></p>
+                  <p class="title_product"> <?php echo $row_pro['tomtat'] ?></p>
                </a>
             </li>
             <?php

@@ -9,14 +9,7 @@
                  <img width="60px" height="30px" src="img/shope-food.png" alt="">
              </li>
              <li><a href="index.php">Trang chủ</a></li>
-             <?php
-             while($row_danhmuc = mysqli_fetch_array($query_danhmuc)){
-             ?>
-             <li><a href="index.php?quanly=danhmucsanpham&id=<?php echo $row_danhmuc['id_danhmuc']?>"><?php echo $row_danhmuc['tendanhmuc'] ?> </a></li>
-            <!-- mỗi danh mục hiện thị id riêng -->
-            <?php
-             }
-             ?>
+            
              <!-- <li><a href="index.php?quanly=tatca&id=1">Tất cả</a></li>
              <li><a href="index.php?quanly=doan">Đồ ăn </a></li>
              <li><a href="index.php?quanly=douong">Đồ uống </a></li>
