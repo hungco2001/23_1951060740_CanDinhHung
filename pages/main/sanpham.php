@@ -21,6 +21,7 @@ while ($row_chitiet = mysqli_fetch_array($query_chitiet)) {
             <p><?php echo $row_chitiet['tendanhmuc'] ?></p>
             <p>Địa chỉ :<?php echo $row_chitiet['noidung'] ?></p>
             <p><input class="themgiohang" name="themgiohang" type="submit" value="Thêm vào giỏ hàng"></p>
+            <p><input class="muangay" name="muangay" type="submit" value="Mua ngay"></p>
         </div>
         </form>
     </div>
