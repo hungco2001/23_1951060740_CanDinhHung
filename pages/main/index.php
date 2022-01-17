@@ -14,7 +14,7 @@ $query_pro = mysqli_query($mysqli, $sql_pro);
 
 
 ?>
-<h3> Sản phẩm mới nhất </h3> 
+<h3> Trang chủ</h3> 
          <ul class="product_list">
             <?php
             while($row = mysqli_fetch_array($query_pro)){
