@@ -205,14 +205,16 @@ width: 100%;
 p.title_product
 {
   text-align: center;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: bold;
+  color: rgb(68, 65, 65);
 }
 p.price_product
 {
   text-align: center;
   font-size: 16px;
   font-weight: bold;
+  color: crimson;
 }
 p.ggmap
 {

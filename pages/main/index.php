@@ -7,9 +7,9 @@ if(isset($_GET['trang'])){
 if($page == '' || $page == 1){
    $begin = 0 ; 
 }else{
-   $begin = ($page*5)-5;
+   $begin = ($page*10)-10;
 }
-$sql_pro = "SELECT * FROM tbl_sanpham ,tbl_danhmuc WHERE tbl_sanpham.id_danhmuc=tbl_danhmuc.id_danhmuc ORDER BY tbl_sanpham.id_sanpham DESC limit $begin,5"; //sắp xếp sản phẩm
+$sql_pro = "SELECT * FROM tbl_sanpham ,tbl_danhmuc WHERE tbl_sanpham.id_danhmuc=tbl_danhmuc.id_danhmuc ORDER BY tbl_sanpham.id_sanpham DESC limit $begin,10"; //sắp xếp sản phẩm
 $query_pro = mysqli_query($mysqli, $sql_pro);
 
 
@@ -38,7 +38,7 @@ $query_pro = mysqli_query($mysqli, $sql_pro);
 <?php
 $sql_trang = mysqli_query($mysqli,"SELECT * FROM tbl_sanpham");
 $row_count = mysqli_num_rows($sql_trang);
-$trang = ceil($row_count/5);
+$trang = ceil($row_count/10);
 ?>
 <ul class="list_trang">
    <?php
